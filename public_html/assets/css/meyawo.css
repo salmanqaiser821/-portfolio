@@ -12119,12 +12119,13 @@ pre .code {
   color: #4b2463;
 }
 .scroll-down {
-  text-align: center;
-  margin-top: 60px; /* Adjust as needed */
+  
+  margin-left: 80px;
+  margin-top: 60px;
 }
 
 .scroll-down ion-icon {
-  font-size: 48px; /* Adjust icon size */
+  font-size: 70px; /* Adjust icon size */
   color: #673a97; /* Icon color */
   cursor: pointer; /* Add cursor pointer */
 }
