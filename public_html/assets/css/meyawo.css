@@ -12130,6 +12130,28 @@ pre .code {
   cursor: pointer; /* Add cursor pointer */
 }
 
+
+
+#scrollUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Adjust as needed */
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 12%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999; /* Ensure it's above other content */
+    }
+
+    /* Style for the arrow icon */
+    #scrollUpBtn ion-icon {
+        font-size: 30px;
+    }
+
 .header-mini {
   min-height: 24rem;
   height: 24rem;
