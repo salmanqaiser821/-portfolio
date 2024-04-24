@@ -48,6 +48,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Scroll to top when the scroll-up button is clicked
+    document.getElementById("scrollUpBtn").addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
 document.addEventListener('DOMContentLoaded', function() {
     // Get the download button element
     var downloadBtn = document.getElementById('downloadBtn');
