@@ -56,6 +56,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const leftArrow = document.querySelector(".left-arrow");
+        const rightArrow = document.querySelector(".right-arrow");
+        const portfolioCards = document.querySelector(".row");
+
+        // Move portfolio cards left
+        leftArrow.addEventListener("click", function () {
+            portfolioCards.scrollLeft -= 300; // Adjust scroll distance as needed
+        });
+
+        // Move portfolio cards right
+        rightArrow.addEventListener("click", function () {
+            portfolioCards.scrollLeft += 300; // Adjust scroll distance as needed
+        });
+    });
+
+
+
+
+    
+
 document.addEventListener('DOMContentLoaded', function() {
     // Get the download button element
     var downloadBtn = document.getElementById('downloadBtn');

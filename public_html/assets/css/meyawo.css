@@ -11243,6 +11243,42 @@ p {
   border-radius: 0;
 }
 
+
+
+/* Arrow container styling */
+.arrow-container {
+  position: relative;
+  height: 100%; /* Ensure the container takes up the full height of the portfolio cards */
+}
+
+/* Arrow button styling */
+.arrow {
+  position: absolute;
+  top: 50%; /* Position the buttons at the vertical center */
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1000;
+  color: #673a97;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust as needed */
+  padding: 10px;
+  border-radius: 80%;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+
+
+
+
+
+
 @media (max-width: 767.98px) {
   .portfolio-card {
     margin-bottom: 30px;
